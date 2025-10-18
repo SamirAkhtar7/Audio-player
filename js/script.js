@@ -23,6 +23,9 @@ if (song.play()) {
   }, 500);
 }
 
+
+//only for the commit change 
+
 progress.addEventListener("change", function () {
   song.play();
   song.currentTime = progress.value;
